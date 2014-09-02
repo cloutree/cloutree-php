@@ -2,7 +2,7 @@
 
 namespace Cloutree;
 
-class Client {
+class Cloutree {
 
   // Singleton instance
   private static $instance; 
