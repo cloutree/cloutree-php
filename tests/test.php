@@ -1,9 +1,9 @@
-<?
+<?php
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
-use Cloutree\Client;
+use Cloutree\Coutree;
 
-Client::configure(array("app_key" => "", "app_secret" => ""));
+Cloutree::configure(array("app_key" => "", "app_secret" => ""));
 
 ?>
